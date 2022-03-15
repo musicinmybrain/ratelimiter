@@ -6,7 +6,7 @@ import sys
 import pytest
 
 
-class DummyCollector(pytest.collect.File):
+class DummyCollector(pytest.File):
     def collect(self):
         return []
 
